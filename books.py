@@ -77,3 +77,4 @@ async def read_book_by_author_category_query(author: str, category:str):
         except KeyError:
             return {"message": "Author or Category not found"}
     return books_to_return
+
